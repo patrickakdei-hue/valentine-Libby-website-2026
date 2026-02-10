@@ -4,7 +4,7 @@
 
 const CONFIG = {
     // Your Valentine's name that will appear in the title
-    // Example: "Jade", "Sarah", "Mike"
+    // Example: "Maura", "Lisa", "Dave"
     valentineName: "Libby",
 
     // The title that appears in the browser tab
@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
+        message: "I can't wait to give you a big hug and kiss on Thursday!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
