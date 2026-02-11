@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Maura", "Lisa", "Dave"
-    valentineName: "Libby",
+    valentineName: "Stephan",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -22,10 +22,10 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you so much! ❤️"           // Secret hover message
+            text: "Who do you love more, the Yankees or the Giants?",                                    // First interaction
+            yesBtn: "Giants",                                             // Text for "Yes" button
+            noBtn: "Yankees",                                               // Text for "No" button
+            secretAnswer: "I don't love anything more than I love you! ❤️"           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "I can't wait to give you a big hug and kiss on Thursday!",
+        message: "I love you more than anything and I am so glad we have each other!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/doillfamv/video/upload/v1770767326/Justin_Bieber__Holy_Tiny_Desk_Home_Concert_vdenof.mp3", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/doillfamv/video/upload/v1770845003/Guns_N_Roses_-_Paradise_City_Lyrics_adhepe.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
